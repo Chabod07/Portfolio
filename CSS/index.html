@@ -3,43 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Adekunle Moses Oriade - Portfolio</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts for a modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- Header Section -->
     <header>
-        <h1>ADEKUNLE MOSES ORIADE</h1>
+        <div class="header-content">
+            <h1>ADEKUNLE MOSES ORIADE</h1>
+            <p>Computer Programming & Analysis Student | Problem Solver | Creative Thinker</p>
+        </div>
+        <!-- Navigation Menu -->
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
         </nav>
     </header>
-    <link rel="stylesheet" href="css/styles.css">
 
-
-   
+    <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Born December 30, 1995, Adekunle Moses is a strategic thinker with a passion for problem-solving, currently mastering Computer Programming and Analysis at Humber College. Ambitious and self-driven, he thrives in high-stakes environments—whether untangling complex code, dominating competitive gaming leaderboards, or perfecting a new recipe. Known for his reliability and accountability, he blends logic with creativity, drawing inspiration from gaming tactics and culinary experimentation to build tech solutions that are as intuitive as they are impactful. For Moses, every challenge is a puzzle waiting to be solved.</section>
+        <div class="about-content">
+            <p>Born December 30, 1995, Adekunle Moses is a strategic thinker with a passion for problem-solving, currently mastering Computer Programming and Analysis at Humber College. Ambitious and self-driven, he thrives in high-stakes environments—whether untangling complex code, dominating competitive gaming leaderboards, or perfecting a new recipe. Known for his reliability and accountability, he blends logic with creativity, drawing inspiration from gaming tactics and culinary experimentation to build tech solutions that are as intuitive as they are impactful. For Moses, every challenge is a puzzle waiting to be solved.</p>
+        </div>
+    </section>
 
-    
+    <!-- Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
-        <p>This is a placeholder for your projects. In future chapters, you’ll add real projects here.</p>
+        <div class="project-grid">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>This is a placeholder for your first project. Add details here.</p>
+            </div>
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>This is a placeholder for your second project. Add details here.</p>
+            </div>
+            <!-- Project Card 3 -->
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>This is a placeholder for your third project. Add details here.</p>
+            </div>
+        </div>
     </section>
 
-   
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>In the future, this will be a contact form. For now, just leave this as a placeholder.</p>
+        <!-- Contact Form -->
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
-    
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 ADEKUNLE MOSES ORIADE</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 ADEKUNLE MOSES ORIADE. All rights reserved.</p>
     </footer>
 </body>
 </html>
