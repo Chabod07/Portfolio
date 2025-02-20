@@ -43,7 +43,7 @@ header::before {
 
 header h1 {
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 6500;
     margin-bottom: 10px;
     animation: fadeInDown 1s ease-in-out;
 }
@@ -83,8 +83,8 @@ section {
     padding: 60px 20px;
     background-color: #fff;
     margin: 20px auto;
-    max-width: 1200px;
-    border-radius: 12px;
+    max-width: 1300px;
+    border-radius: 13px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
@@ -138,7 +138,7 @@ section h2 {
 .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 18px;
     max-width: 600px;
     margin: 0 auto;
 }
