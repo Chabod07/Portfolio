@@ -1,11 +1,11 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
+/* Body  */
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
@@ -14,7 +14,7 @@ body {
     padding: 20px;
 }
 
-/* Header Styling */
+/* Header  */
 header {
     background: linear-gradient(135deg, #2c3e50, #34495e);
     color: #fff;
@@ -22,7 +22,7 @@ header {
     text-align: center;
     position: relative;
     overflow: hidden;
-    margin-bottom: 40px; /* Added some spacing */
+    margin-bottom: 40px; /* Add litt spacing */
 }
 
 header::before {
@@ -75,10 +75,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #1abc9c;
+    color: #1e42d5;
 }
 
-/* Section Styling */
+/* Section Stylez */
 section {
     padding: 60px 20px;
     background-color: #fff;
@@ -103,7 +103,7 @@ section h2 {
     text-align: justify;
 }
 
-/* Project Grid */
+/*  grid */
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -120,12 +120,12 @@ section h2 {
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(133, 96, 182, 0.2);
 }
 
 .project-card h3 {
     font-size: 1.5rem;
-    color: #2c3e50;
+    color: #6e3037;
     margin-bottom: 10px;
 }
 
@@ -163,16 +163,16 @@ section h2 {
     border-radius: 8px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background 0.3s ease;
+   
 }
 
 .contact-form button:hover {
-    background: #1abc9c;
+    background: #118c73;
 }
 
-/* Footer Styling */
+/* Footer */
 footer {
-    background: #2c3e50;
+    background: #ec4fa2;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -196,18 +196,4 @@ footer {
     color: #1abc9c;
 }
 
-/* Animations */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes fadeInDown {
-    from { opacity: 0; transform: translateY(-20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
+/* tried animation but didnt get it rigt */
