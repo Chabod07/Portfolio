@@ -5,24 +5,26 @@
     box-sizing: border-box;
 }
 
-/* Body  */
+
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
     color: #333;
     background-color: #f4f4f9;
     padding: 20px;
 }
 
-/* Header  */
+
 header {
     background: linear-gradient(135deg, #2c3e50, #34495e);
     color: #fff;
-    padding: 60px 20px;
+    padding: 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
-    margin-bottom: 40px; /* Add litt spacing */
+    margin-bottom: 40px;
 }
 
 header::before {
@@ -68,6 +70,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.1rem;
+    font-weight: bold;
     transition: color 0.3s ease;
     display: flex;
     align-items: center;
@@ -76,16 +79,24 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #1e42d5;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-/* Section Stylez */
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+
 section {
-    padding: 60px 20px;
+    padding: 20px;
     background-color: #fff;
-    margin: 20px auto;
+    margin: 20px;
     max-width: 1300px;
     border-radius: 13px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
@@ -103,7 +114,7 @@ section h2 {
     text-align: justify;
 }
 
-/*  grid */
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -175,8 +186,11 @@ footer {
     background: #ec4fa2;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     margin-top: 40px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
 }
 
 .social-links {
@@ -196,4 +210,20 @@ footer {
     color: #1abc9c;
 }
 
-/* tried animation but didnt get it rigt */
+
+@media only screen and (max-width: 600px) {
+    header, footer {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
+}
